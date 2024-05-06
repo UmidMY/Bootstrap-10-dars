@@ -1,0 +1,37 @@
+.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:not(:first-child) > .btn,
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) .b1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.b1{
+    background-color: white;
+    border: 1px solid gray;
+    color: #4e555b;
+}
+.b2{
+    border: 0px;
+    background-color: green;
+    padding:0.5rem 1rem;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.b3{
+    border: 0px;
+    background-color:blue;
+    padding:0.5rem 1rem;
+    color: white;
+}
+.b4{
+    border: 0px;
+    background-color: red;
+    padding:0.5rem 1rem;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

@@ -1,0 +1,22 @@
+.b{
+    background-color: #d9d9d9; !important;
+    font-size: 0.8rem;
+}
+
+.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:not(:first-child) > .btn,
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.b1{
+    background-color: #d9d9d9; !important;
+
+}
+.b2{
+    background-color: #d9d9d9; !important;
+    font-size: 1.8rem;
+}
